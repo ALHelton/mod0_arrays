@@ -19,3 +19,15 @@ p is_here.unshift (false)
 # Index Positions:
 # The index position refers to the location of an element within the array.
 # The order begins with 0 - ex 0, 1, 2, etc. So the first element in an array is 0.
+
+# .New Method
+# Array.new: creates a new array with nothing inside it
+# Array.new(#): creates array with that # of elements
+# Array.new(#, object): Creates array with # of elements, named as objects
+names = Array.new
+p names
+names = Array.new(3)
+p names
+names = Array.new(4, "Pam")
+p names
+
