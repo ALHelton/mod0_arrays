@@ -31,3 +31,5 @@ p names
 names = Array.new(4, "Pam")
 p names
 
+names.insert(2, "Andra")
+p names
